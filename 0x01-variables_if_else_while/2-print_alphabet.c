@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - code block
- * Description: prints alphabet in lower and uppercase
- * Return: 0*/
-
+ * main - main block
+ * Description: Write a program that prints the alphabet in lowercase
+ * Return: 0
+ */
 int main(void)
 {
 	char c = 'a';
