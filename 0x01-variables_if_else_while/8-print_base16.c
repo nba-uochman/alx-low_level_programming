@@ -2,7 +2,7 @@
 /**
  * main - code block
  * Description: print numbers of base sixteen in lowercase
- * Retrun: 0
+ * Return: 0
  */
 int main(void)
 {
