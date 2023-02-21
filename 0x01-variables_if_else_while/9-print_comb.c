@@ -1,26 +1,30 @@
 #include <stdio.h>
 /**
- * main - code block
- * Description: program that prints all possible combination of a single digit number
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success/correct)
  */
 int main(void)
+
 {
-	int number;
+int number;
 
-	for (number = 48; number <= 57; number++)
-	{
-		putchar(number);
 
-		if (number == 57)
-		{
-			break;
-		}
+for (number = 48; number <= 57; number++)
+{
+putchar(number);
 
-		putchar(',');
-		putchar (' ');
-	}
+if (number == 57)
+{
+break;
+}
 
-	putchar('\n');
-	return (0);
+putchar(',');
+putchar (' ');
+}
+
+putchar('\n');
+
+return (0);
+
 }
