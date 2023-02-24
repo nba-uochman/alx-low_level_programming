@@ -1,9 +1,9 @@
 /**
- * _isupper - check if c is upper
+ * _isdigit - check if c is digit 0-9
  *
- * @c: input for alphabet
+ * @c: input for digit
  *
- * Return: 1 if its uppercase, 0 if not
+ * Return: 1 if its digit, 0 if not
 */
 
 int _isdigit(int c)
